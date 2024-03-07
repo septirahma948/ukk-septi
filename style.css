@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+.calculator{
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #ffffff;
+    background-color: rgba(0, 0, 0, 0.692);
+}
+input{
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: right;
+    padding: 30px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+.calc-button{
+    display: flex;
+    justify-content: space-between;
+}
+.calc-button button{
+    flex-basis: 200px;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.calc-button button:hover{
+    background-color: #e09e0f;
+    color: #ffffff;
+}
+.calc-button button:last-child{
+    background-color: #e09e0f;
+}
+.satu button{
+    background-color: #e09e0f;
+}
+.lima button{
+    background-color: #e09e0f;
+}
